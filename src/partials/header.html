@@ -1,3 +1,44 @@
 <header class="header">
-  <div class="container"></div>
+  <div class="container">
+    <nav class="nav">
+      <!-- Homepage/logo -->
+      <a href="./index.html" class="nav-logo" aria-label="Go to homepage">
+        <svg class="nav-logo-icon" width="63" height="36" aria-hidden="true">
+          <use href="../img/logo.svg"></use>
+        </svg>
+      </a>
+
+      <!-- List of navigation links -->
+      <ul id="nav-menu-list" class="nav-menu-list">
+        <li class="nav-menu-item">
+          <a href="#welcome" class="nav-menu-link">About us</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="#quality" class="nav-menu-link">Benefits</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="#experience" class="nav-menu-link">Gallery</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="#testimonial" class="nav-menu-link">Testimonial</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="#location" class="nav-menu-link">Location</a>
+        </li>
+      </ul>
+
+      <!-- Mobile menu button -->
+      <button
+        class="mobile-menu-btn"
+        type="button"
+        aria-label="Open mobile menu"
+        aria-controls="nav-menu-list"
+        aria-expanded="false"
+      >
+        <svg class="mobile-menu-icon" width="24" height="24" aria-hidden="true">
+          <use href="../img/icons.svg#icon-burger-menu"></use>
+        </svg>
+      </button>
+    </nav>
+  </div>
 </header>
